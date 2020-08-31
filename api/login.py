@@ -6,14 +6,12 @@ import requests
 class Login:
     def __init__(self):
         self.req = requests.session()
-        pass
+        self.req.headers['token'] = 'TOKEN'
 
     # 登录
     def login(self, url, params):
-        self.req.headers['token'] = 'TOKEN'
         res = self.req.post(url, data=params)
         print(res)
-        pass
 
     # 登出
     def logout(self, url):
