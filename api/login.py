@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import random
 import requests
 
 
@@ -6,7 +7,7 @@ import requests
 class Login:
     def __init__(self):
         self.req = requests.session()
-        self.req.headers['token'] = 'TOKEN'
+        self.req.headers['token'] = random.choice(['剪刀', '石头', '布'])
 
     # 登录
     def login(self, url, params):
