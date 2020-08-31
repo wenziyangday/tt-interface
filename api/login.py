@@ -13,6 +13,7 @@ class Login:
     def login(self, url, params):
         res = self.req.post(url, data=params)
         print(res)
+        pass
 
     # 登出
     def logout(self, url):
