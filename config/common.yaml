@@ -1,0 +1,19 @@
+#请求接口的url的域名
+host: https://api.benlai.com/v5
+
+#请求接口的请求头中的共用参数
+headers:
+  "areaId": "0"
+  "version": "6.0.0"
+  "channel": "AppStore"
+  "deviceId": "CB16CE82-0700-4EE5-BBAA-9A3D0C6F98FF"
+  "source": "1"
+  "nativeVersion": "6.0.0"
+  "webId": "1"
+  "systemVersion": "12.4.6"
+  "phoneModel": "iPod7,1"
+  "localcity": "2"
+  "sign": "8180eb24c26ff43827e2a4c2c8d5860b"
+  "t": "时间戳"
+#  TODO 时间戳生成
+#  TODO 签名和token生成接口
