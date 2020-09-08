@@ -1,10 +1,6 @@
 #请求接口的url的域名
-host: https://dev1app.goodiber.com/v2/
+host: https://api.benlai.com/v5
 
 #请求接口的请求头中的共用参数
 headers:
-  "version": "2.3.0"
-  "version-id": "235"
-  "os": "ios"
-  "sign": "123456"
-  "is-test": "1"
+  "Authorization": "Bearer 3.b1f03.I-N5hW9X609JAPuq5PRuS2CmBKtFsCjcx9EU0AQSeg5-KO50SDqt0pYC0KnD0bAm6XpajV8zpwbeWGeiBP01YhL8or9Pbf0k_UaIKH42xPsozXb5G0nUMDCOabSh7TfJ_v2jHfL0I2vhFmi7RdqvhE9dNoaNWWd90BvVqcYMBd8oLd-DhhVySZXFUsmumkgsBtYGWoMoEZ1sas_OF5CPqSGwhF8yWj4jF4jm9QFmDCQ"
