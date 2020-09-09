@@ -5,3 +5,7 @@
 
 def two_arr_to_dict(arr):
     print(arr)
+
+
+def dict_diff(cur_dict, target_dict):
+    print('sd')

@@ -77,4 +77,4 @@ if __name__ == '__main__':
     # ]
     # ExcelUtil().create_excel('reports', data)
 
-    ExcelUtil().read_excel('api.xlsx')
+    excel = ExcelUtil().read_excel('api.xlsx')
