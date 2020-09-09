@@ -1,0 +1,20 @@
+{
+  "name": "tt-inter",
+  "version": "1.0.0",
+  "description": "接口自动化",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "pip install -i https://mirrors.aliyun.com/pypi/simple/ openpyxl requests pyyaml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wenziyangday/tt-interface.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wenziyangday/tt-interface/issues"
+  },
+  "homepage": "https://github.com/wenziyangday/tt-interface#readme"
+}
