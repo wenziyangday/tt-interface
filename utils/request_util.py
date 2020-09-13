@@ -22,8 +22,11 @@ class RequestUtils:
     def load_response(self, method_type, url, params):
         response = self.method(method_type, url, params)
         # TODO 此处之后要做根据响应值得不同做出对应的处理，从而拼接出来生成的报告
+        # TODO 返回值和hope（期待值）差异化比较，最终写入报告之中
         print(response.text)
+        return response.text
 
 
 if __name__ == '__main__':
-    RequestUtils().method()
+    RequestUtils()
+    Login()

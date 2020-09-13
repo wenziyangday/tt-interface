@@ -2,7 +2,7 @@
 host: https://api.benlai.com/v5
 
 #请求接口的请求头中的共用参数
-headers:
+common:
   "areaId": "0"
   "version": "6.0.0"
   "channel": "AppStore"
@@ -13,7 +13,7 @@ headers:
   "systemVersion": "12.4.6"
   "phoneModel": "iPod7,1"
   "localcity": "2"
-  "sign": "8180eb24c26ff43827e2a4c2c8d5860b"
+  "sign": "f464d4a130f1479f160ff282951d1e11"
   "t": "时间戳"
 #  TODO 时间戳生成
 #  TODO 签名和token生成接口

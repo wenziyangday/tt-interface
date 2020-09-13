@@ -2,6 +2,7 @@
 import datetime
 import openpyxl
 import os
+import json
 
 
 # 转化
@@ -65,16 +66,32 @@ class ExcelUtil:
 
 
 if __name__ == '__main__':
-    # data = [
-    #     ['中国', '北京'],
-    #     ['韩国', '首尔'],
-    #     ['日本', '东京'],
-    #     ['泰国', '曼谷'],
-    #     ['马来西亚', '吉隆坡'],
-    #     ['越南', '河内'],
-    #     ['朝鲜', '平壤'],
-    #     ['印度', '新德里']
-    # ]
-    # ExcelUtil().create_excel('reports', data)
+    data = [
+        ['method', 'url', 'params', 'hope', 'mark'],
+        ['get', '/首尔', '{}', '{}', 'mark'],
+        ['hope', '东京'],
+        ['泰国', '曼谷'],
+        ['马来西亚', '吉隆坡'],
+        ['越南', '河内'],
+        ['朝鲜', '平壤'],
+        ['印度', '新德里']
+    ]
+    ExcelUtil().create_excel('reports', data)
+# data = [
+#     ['中国', '北京'],
+#     ['韩国', '首尔'],
+#     ['日本', '东京'],
+#     ['泰国', '曼谷'],
+#     ['马来西亚', '吉隆坡'],
+#     ['越南', '河内'],
+#     ['朝鲜', '平壤'],
+#     ['印度', '新德里']
+# ]
+# ExcelUtil().create_excel('reports', data)
 
-    excel = ExcelUtil().read_excel('api.xlsx')
+# excel = ExcelUtil().read_excel('api.xlsx')
+# print(type(excel[0]))
+# print(excel[0])
+# print(json.loads(excel[0]['hope'])['data'])
+# print(excel[0]['hope'])
+# print(type(excel[0]['hope']))

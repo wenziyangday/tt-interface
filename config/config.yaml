@@ -1,6 +1,4 @@
-#请求接口的url的域名
-host: https://api.benlai.com/v5
-
 #请求接口的请求头中的共用参数
 headers:
-  "Authorization": "Bearer 3.b1f03.I-N5hW9X609JAPuq5PRuS2CmBKtFsCjcx9EU0AQSeg5-KO50SDqt0pYC0KnD0bAm6XpajV8zpwbeWGeiBP01YhL8or9Pbf0k_UaIKH42xPsozXb5G0nUMDCOabSh7TfJ_v2jHfL0I2vhFmi7RdqvhE9dNoaNWWd90BvVqcYMBd8oLd-DhhVySZXFUsmumkgsBtYGWoMoEZ1sas_OF5CPqSGwhF8yWj4jF4jm9QFmDCQ"
+  User-Agent: BenLai/6.0.0 (iPod touch; iOS 12.4.6; Scale/2.00)
+  Authorization: 3.51466.WtySy-merCTnYR2tNqJTiMegVAPV-AABBKB-QkuRD027AMaAZrhAPLChtSPof_5ciQASOpyxRsgH_E493LNDYGHqerxWrqlYCCyxvwJbq4Eq2s5Kk6jPlBNmwzngWLVi0-fWVirYGIoVA-4MUsv-4AbLcs2NBLghkJaiU8ObwjMDpCMihVvAr41iAE8muO5uc_8YmTM4BqQhVNN-SLnjpwSsmjHv6WpR04WqhtAsFlA-8RErLq1bjKggwqvimQv_XffarRmzTrjiPDNpFf2Ckg
