@@ -34,6 +34,7 @@ class ExcelUtil:
     功能描述：指定路径下写入指定数据的指定名称的excel
     name: 表的名称
     data: 表格中的数据(二维数组) data[i] 表示第i行 data[i][j] 表示第i行第j列
+    返回一个文件名称，以供发送email
     '''
 
     def create_excel(self, name, list_data):
@@ -46,6 +47,7 @@ class ExcelUtil:
             self.ws.append(item)
         self.wb.save(name + '-' + str_now + '.xlsx')
         print('文件生成功')
+        return name + '-' + str_now + '.xlsx'
 
     def read_excel(self, name):
         # 用例存放目录
