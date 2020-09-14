@@ -28,4 +28,4 @@ class EmailUtil:
 
 
 if __name__ == '__main__':
-    EmailUtil('2660670981@qq.com', '', '1483319587@qq.com').send_mail()
+    EmailUtil('1483319587@qq.com', 'aafmaklpjfcjhiif', 'Vincent.wen@wayz.ai').send_mail()
